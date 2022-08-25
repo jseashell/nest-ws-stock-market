@@ -1,20 +1,35 @@
-# Stock Market Server
+# Nest Web Socket Stock Market
 
-Web socket API for a simulated stock market
+Proof-of-concept Nest.js web socket server for a simulated stock market
 
-![demo](https://github.com/jseashell/stock-market-server/blob/main/demo.gif)
+<details>
+<summary>Table of Contents</summary>
 
-## Installation
+- [Install](#install)
+- [Build](#build)
+- [Run the App](#run-the-app)
+- [Testing](#testing)
+- [Environment](#environment)
+- [Further Help](#further-help)
+- [License](#license)
 
-```shell
+</details>
+
+![demo](https://github.com/jseashell/nest-ws-stock-market/blob/main/demo.gif)
+
+## Install
+
+```
+git clone git@github.com:jseashell/nest-ws-stock-market.git
+cd nest-ws-stock-market
 npm install
 ```
 
-## Running the server
+## Run the App
 
 ```shell
-# development
-npm run start
+# Start a local dev server
+npm start
 
 # watch mode
 npm run start:dev
@@ -25,17 +40,17 @@ npm run start:prod
 
 ## Client
 
-Check out the rich [web client](https://www.github.com/jseashell/stock-market-client)!
+Check out the example [web client](https://www.github.com/jseashell/ng-ws-stock-market)!
 
-Or keep it simple with [example-client.html](./example-client.html). Run the server, then open the local file in a browser.
+...Or keep it simple with [example-client.html](./example-client.html). Run the server, then open the local file in a browser.
 
-## Test
+## Testing
 
-```shell
-# unit tests
+```sh
+# Unit tests
 npm run test
 
-# test coverage
+# Coverage
 npm run test:cov
 ```
 
