@@ -8,6 +8,7 @@ Proof-of-concept Nest.js web socket server for a simulated stock market
 - [Install](#install)
 - [Build](#build)
 - [Run the App](#run-the-app)
+- [Client](#client)
 - [Testing](#testing)
 - [Environment](#environment)
 - [Further Help](#further-help)
@@ -27,7 +28,7 @@ npm install
 
 ## Run the App
 
-```shell
+```sh
 # Start a local dev server
 npm start
 
